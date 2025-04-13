@@ -1,4 +1,4 @@
-# node.js+phaer
+# node.js+phaser
 
 ## 使い方
 ```

@@ -1,0 +1,25 @@
+{
+  "name": "noder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "build:watch": "node build.js watch",
+    "start": "node server.js",
+    "dev": "yarn concurrently \"yarn build:watch\" \"yarn start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.25.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "phaser": "^3.88.2"
+  }
+}
